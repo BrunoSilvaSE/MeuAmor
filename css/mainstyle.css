@@ -52,11 +52,29 @@ body{
 .music {
     padding-top: 50px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 95vw;
 }
+
+.btnPlay {
+  background-color: transparent;    /* bordô do seu fundo */
+  color: #f3f2f3;               /* texto clarinho */
+  border-radius: 1rem;          /* bordas arredondadas */
+  font-size: 2.5rem;            /* tamanho grande pro ícone */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  user-select: none;            /* não deixa selecionar o texto */
+  outline: none;
+  border: none;                 /* sem borda */
+}
+
+.btnPlay:active {
+  transform: scale(0.95);
+  box-shadow: none;             /* sem sombra */
+}
+
+
 
 .main {
     margin: 0;
