@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     senha = ""
                     input.value = '✱✱✱✱'
                     inputWrapper.style.border = 'none'
-                    window.location.href = '../main.html';
+                    window.location.href = 'main.html';
                 }, 1000);
 
             } else if (senha.length > 3){
