@@ -1,10 +1,10 @@
 const images = [
-  '../img/jmemoria/1.png',
-  '../img/jmemoria/2.png',
-  '../img/jmemoria/3.png',
-  '../img/jmemoria/4.png',
-  '../img/jmemoria/5.png',
-  '../img/jmemoria/6.png',
+  'img/jmemoria/1.png',
+  'img/jmemoria/2.png',
+  'img/jmemoria/3.png',
+  'img/jmemoria/4.png',
+  'img/jmemoria/5.png',
+  'img/jmemoria/6.png',
 ];
 
 let cardsArray = [...images, ...images];
