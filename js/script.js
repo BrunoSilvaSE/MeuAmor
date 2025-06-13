@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
             // Se acertar a senha
-            if (senha === '6666') {
+            if (senha === '1002') {
                 inputWrapper.style.border = '2px solid #2ecc71'; 
 
                 input.value = '❤️❤️❤️❤️'; 
