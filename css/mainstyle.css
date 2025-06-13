@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 9vw;
+}
+h2 {
+    font-size: 5vw;
+}
+h3 {
+    font-size: 4vw;
+}
+p {
+    font-size: 4vw;
+}
+
+body::before {
+  content: "";
+  background-image: url('../img/marcadagua.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110vw; /* ou contain, cover */
+  opacity: 0.03;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+
+body{
+    background-color: #7a2323;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    font-family: "Noto Sans", sans-serif;
+    color: #f3f2f3;
+
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.music {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+}
+
+.main {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+    width: 95vw;
+}
+
+.timetitle {
+    text-align: start;
+    width: 100%;
+    font-size: 7vw;
+    margin-bottom: 1vw;
+}
+
+.tempo {
+    background-color: #ddd7d7;
+    color: rgb(71, 51, 51);
+    width: 96%;
+    padding: 2%;
+    border-radius: 2vw;
+
+
+}
+
+.ln {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0;
+    margin: 0;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 230vw;
+    aspect-ratio: 1/1;
+}
+
+.date > p {
+    font-size: 10vw;
+    font-weight: 600;
+}
+
+.date > h3 {
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+.div {
+    margin: 0;
+    padding: 0;
+    font-size: 20vw;
+}
+
+.infint {
+  white-space: normal; 
+  word-break: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;  /* garante que respeita largura da viewport */
+}
+
